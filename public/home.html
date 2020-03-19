@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+
+<body>
+    <nav class="nav">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/1280px-MarvelLogo.svg.png"
+            class="logo h-auto img-responsive my-2" style="height: 175px; width: 125px; margin: 0px auto;">
+    </nav>
+    <div class="container w-auto h-auto rounded">
+        <div class="homedisplay">
+            <div class="row">
+
+                <div class="col-md-5">
+                    <div class="card h-auto w-auto"
+                        style="border-style: inset; border-color: black; border-width: 5px; background-color: white; background-size: 100% 100%;">
+                        <div class="formcarddisplay my-3 mx-3">
+                            <h3 class="text-center">Register</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="firstnameinput">First Name</label>
+                                    <input type="text" class="form-control" id="firstnameinput">
+                                </div>
+                                <div class="form-group">
+                                    <label for="eemailinput">Email address</label>
+                                    <input type="email" class="form-control" id="emailinput">
+                                </div>
+                                <div class="form-group">
+                                    <label for="usernameinput">Username</label>
+                                    <input type="text" class="form-control" id="usernameinput">
+                                </div>
+                                <div class="form-group">
+                                    <label for="passwordinput">Password</label>
+                                    <input type="password" class="form-control" id="passwordinput">
+                                </div>
+                                <div class="text-center">
+                                 <button type="submit" class="btn btn-primary" id="registerbtn">Register</button>   
+                                </div>  
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center" style="margin-top: 20%; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;">
+                    <h1>or</h1>
+                </div>
+
+                <div class="col-md-5">
+                        <div class="card h-auto w-auto"
+                            style="border-style: inset; border-color: black; border-width: 5px; background-color: white; background-size: 100% 100%; margin-top: 20%;">
+                            <div class="formcarddisplay my-3 mx-3">
+                                <h3 class="text-center">Login</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="usernameinput">Username</label>
+                                        <input type="text" class="form-control" id="usernameinput">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwordinput">Password</label>
+                                        <input type="password" class="form-control" id="passwordinput">
+                                    </div>
+                                    <div class="text-center">
+                                     <button type="submit" class="btn btn-primary" id="loginbtn">Login</button>   
+                                    </div>  
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 2.buttons a tag routes colors
+    3.descriptions if char.lengthm= 0 filter more until full 20 is succesfully displaying
+    marvel logo on phone is all stretched so make that responsive  -->
+</body>
+
+</html>
