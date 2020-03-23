@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a957dc26-4e62-4648-9948-64fd09f24876/d8ccsw8-9a268eca-5a0f-4c3f-af3b-462e79950ab3.png/v1/fill/w_1024,h_576,q_80,strp/free_marvel_background_by_minecraft_logan1_d8ccsw8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvYTk1N2RjMjYtNGU2Mi00NjQ4LTk5NDgtNjRmZDA5ZjI0ODc2XC9kOGNjc3c4LTlhMjY4ZWNhLTVhMGYtNGMzZi1hZjNiLTQ2MmU3OTk1MGFiMy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.aPI22uXzLjei8omQy2DXf_EamsVv_k7z-cPDg8dYBLk);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.container{
+    margin: 0px auto;
+    position: relative;
+    margin-top: 60px;
+}
+
+.character:hover,.comicbook:hover,.writereview:hover,.myreviews:hover{
+    transform: scale(1.1);
+}
+ 
+h1{
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+}
+
+.searchcomic,.searchcharacter{
+    color: red;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black;
+}
+
+.nav{
+    background-color: black;
+}
+.card-title{
+    color: red;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: black;
+}
+

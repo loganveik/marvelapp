@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/writereview.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <title>Write Review</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/1280px-MarvelLogo.svg.png"
+            class="logo h-auto img-responsive my-2" style="height: 175px; width: 125px; margin: 0px auto;">
+    </nav>
+
+    <div class="container h-auto rounded">
+
+        <div class="formdisplay my-3 mx-3">
+            <h2 class="text-center" style="font-family: 'Bangers', cursive;">Write a review about your favorite marvel
+                character</h2>
+            <form>
+                <div class="form-group">
+                    <label for="firstnameinput">Character Name:</label>
+                    <input type="text" class="form-control" id="characterinput">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Review:</label>
+                    <textarea class="form-control" id="reviewinput" rows="3"></textarea>
+                </div>
+                <div class="text-center">
+                    <a type="submit" class="btn my-2 mx-2" id="submitbtn">Submit</a>
+                    <a type="submit" class="btn my-2 ml-2" id="profilebtn" href="profile.html">Back to Profile</a>
+                </div>
+            </form>
+        </div>
+        <div class="submittext"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/writereview.js"></script>
+</body>
+
+</html>
