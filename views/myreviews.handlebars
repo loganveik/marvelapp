@@ -10,14 +10,24 @@
     </nav>
 
     <div class="container h-auto rounded">
-        <div class="col-md-6 text-center"
-            style="-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white; margin: 0px auto;">
-            <h1 class="myreviews">My Reviews</h1>
+        <div class="row text-center">
+            <div class="col-lg-3">
+                <a type='submit' class='btn mx-1' id='backtoprofile' href='/profile'>⬅ Back
+                    to
+                    Profile</a>
+            </div>
+            <div class="col-lg-6"
+                style="-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white; margin: 0px auto;">
+                <h1 class="myreviews">My Reviews</h1>
+            </div>
+            <div class="col-lg-3">
+                <a type='submit' class='btn mx-1' id='deleteall'>Delete all reviews ✖</a>
+            </div>
         </div>
         <div class="myreviewsdisplay">
-
+            <div class="row" id="myreviewsrow"></div>
         </div>
     </div>
-    
-    <script src="../js/character.js"></script>
+
+    <script type="text/javascript" src="/js/myreviews.js"></script>
 </body>
