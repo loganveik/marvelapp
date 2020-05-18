@@ -38,7 +38,7 @@ $(document).on("click", "#delete", function () {
     $.ajax({
         method: "DELETE",
         url: "/api/delete/" + $(this).attr("data-id")
-    }).then(function (data) {
+    }).then(function () {
         window.location.pathname = '/view/review'
     });
 })
@@ -52,3 +52,5 @@ $(document).on("click", "#deleteall", function () {
         window.location.pathname = '/view/review'
     })
 });
+
+$("#backtoprofile").click(() => window.location.pathname = '/profile');

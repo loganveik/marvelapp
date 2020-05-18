@@ -2,6 +2,7 @@ const db = require('../models');
 
 module.exports = function (app) {
 
+  // review model routes
   app.get("/api/all", function (req, res) {
     db.Character.findAll({}).then(function (result) {
       res.json(result);
@@ -36,6 +37,18 @@ module.exports = function (app) {
       .then(function (response) {
         res.json(response);
       });
+  });
+
+  // user routes
+  app.post("/api/register", function (req, res) {
+    console.log(res);
+    db.User.create({
+      firstname: req.body.firstname,
+      username: req.body.username,
+      password: req.body.password
+    }).then(function (response) {
+      res.json(response);
+    })
   });
 
 }

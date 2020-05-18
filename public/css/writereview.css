@@ -26,3 +26,21 @@ h1,p,#profilebtn,#submitbtn{
 .nav{
     background-color: black;
 }
+
+
+#profilebtn{
+    background-color: mediumblue;
+    color: white;
+}
+#profilebtn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+#submitbtn{
+    background-color: green;
+    color: white;
+}
+#submitbtn:hover{
+    background-color: limegreen;
+    color: white;
+}

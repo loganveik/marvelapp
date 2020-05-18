@@ -12,8 +12,11 @@ body{
 .character:hover,.comicbook:hover,.writereview:hover,.myreviews:hover{
     transform: scale(1.1);
 }
+.character,.comicbook,.writereview,.myreviews{
+    transition: 0.3s;
+}
  
-h1{
+h2{
     font-size: 30px;
     font-family: 'Bangers', cursive;
 }

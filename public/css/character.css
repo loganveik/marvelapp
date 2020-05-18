@@ -16,7 +16,22 @@ h1,p,#profilebtn,#searchbtn{
     font-size: 20px;
     font-family: 'Bangers', cursive;
 }
-
+#profilebtn{
+    background-color: mediumblue;
+    color: white;
+}
+#profilebtn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+#searchbtn{
+    background-color: green;
+    color: white;
+}
+#searchbtn:hover{
+    background-color: limegreen;
+    color: white;
+}
 .image{
     position: relative;
     height: 200px;

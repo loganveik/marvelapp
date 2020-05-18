@@ -64,3 +64,20 @@ p{
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
 }
+
+#deleteall{
+    background-color: crimson;
+    color: white;
+}
+#deleteall:hover{
+    background-color: red;
+    color: white;
+}
+#backtoprofile{
+    background-color: mediumblue;
+    color: white;
+}
+#backtoprofile:hover{
+    background-color: dodgerblue;
+    color: white;
+}

@@ -23,10 +23,6 @@
                                     <input type="text" class="form-control" id="firstnameinput">
                                 </div>
                                 <div class="form-group">
-                                    <label for="eemailinput">Email Address:</label>
-                                    <input type="email" class="form-control" id="emailinput">
-                                </div>
-                                <div class="form-group">
                                     <label for="usernameinput">Username:</label>
                                     <input type="text" class="form-control" id="usernameinput">
                                 </div>
@@ -35,43 +31,45 @@
                                     <input type="password" class="form-control" id="passwordinput">
                                 </div>
                                 <div class="text-center">
-                                 <a type="submit" class="btn btn-primary" id="registerbtn" href="/profile">Register</a>   
-                                </div>  
+                                    <div class="warning"></div>
+                                    <button type="button" class="btn btn-primary" id="registerbtn">Register</button>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-2 text-center" style="margin-top: 20%; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;">
+                <div class="col-md-2 text-center"
+                    style="margin-top: 20%; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;">
                     <h1>or</h1>
                 </div>
 
                 <div class="col-md-5">
-                        <div class="card h-auto w-auto"
-                            style="border-style: inset; border-color: black; border-width: 5px; background-color: white; background-size: 100% 100%; margin-top: 20%;">
-                            <div class="formcarddisplay my-3 mx-3">
-                                <h3 class="text-center" style="font-family: 'Bangers', cursive;">Login</h3>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="usernameinput">Username:</label>
-                                        <input type="text" class="form-control" id="usernameinput">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="passwordinput">Password:</label>
-                                        <input type="password" class="form-control" id="passwordinput">
-                                    </div>
-                                    <div class="text-center">
-                                     <a type="submit" class="btn btn-primary" id="loginbtn" href="/profile">Login</a>   
-                                    </div>  
-                                </form>
-                            </div>
+                    <div class="card h-auto w-auto"
+                        style="border-style: inset; border-color: black; border-width: 5px; background-color: white; background-size: 100% 100%; margin-top: 20%;">
+                        <div class="formcarddisplay my-3 mx-3">
+                            <h3 class="text-center" style="font-family: 'Bangers', cursive;">Login</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="usernameinput">Username:</label>
+                                    <input type="text" class="form-control" id="usernameinputlogin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="passwordinput">Password:</label>
+                                    <input type="password" class="form-control" id="passwordinputlogin">
+                                </div>
+                                <div class="text-center">
+                                    <a type="submit" class="btn btn-primary" id="loginbtn" href="/profile">Login</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
+                </div>
 
             </div>
 
         </div>
 
     </div>
-
+    <script type="text/javascript" src="/js/user.js"></script>
 </body>

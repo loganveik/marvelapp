@@ -25,3 +25,20 @@ h1,p,#profilebtn,#searchbtn{
 .nav{
     background-color: black;
 }
+
+#profilebtn{
+    background-color: mediumblue;
+    color: white;
+}
+#profilebtn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+#searchbtn{
+    background-color: green;
+    color: white;
+}
+#searchbtn:hover{
+    background-color: limegreen;
+    color: white;
+}

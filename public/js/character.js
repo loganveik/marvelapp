@@ -37,3 +37,6 @@ function characterajax() {
         };
     });
 };
+
+
+$("#profilebtn").click(() => window.location.pathname = '/profile');

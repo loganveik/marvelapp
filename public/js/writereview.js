@@ -22,6 +22,7 @@ $("#submitbtn").on("click", function (event) {
                 imgurl: response.data.results[0].thumbnail.path + '.' + response.data.results[0].thumbnail.extension,
                 review: characterReview,
             };
+            console.log(newCharacterReview)
             $.ajax({
                 url: "/api/create",
                 method: "POST",
@@ -32,3 +33,6 @@ $("#submitbtn").on("click", function (event) {
         }
     })
 });
+
+
+$("#profilebtn").click(() => window.location.pathname = '/profile');

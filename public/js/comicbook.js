@@ -42,3 +42,5 @@ function comicajax() {
     });
 
 };
+
+$("#profilebtn").click(() => window.location.pathname = '/profile');
