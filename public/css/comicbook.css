@@ -42,3 +42,12 @@ h1,p,#profilebtn,#searchbtn{
     background-color: limegreen;
     color: white;
 }
+
+#logoutbtn{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+}
+#logoutbtn:hover{
+    color: crimson;
+}

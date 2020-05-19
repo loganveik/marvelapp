@@ -44,3 +44,12 @@ function comicajax() {
 };
 
 $("#profilebtn").click(() => window.location.pathname = '/profile');
+
+$("#logoutbtn").on("click", function (event) {
+    $.ajax({
+        url: "/logout",
+        method: "GET"
+    }).then(function () {
+        window.location.href = "/"
+    })
+});

@@ -45,3 +45,12 @@ h1,p,#profilebtn,#searchbtn{
 .searchforanymarvelcharacter,.name{
     font-size: 30px;
 }
+
+#logoutbtn{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+}
+#logoutbtn:hover{
+    color: crimson;
+}

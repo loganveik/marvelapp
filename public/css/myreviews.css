@@ -81,3 +81,12 @@ p{
     background-color: dodgerblue;
     color: white;
 }
+
+#logoutbtn{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+}
+#logoutbtn:hover{
+    color: crimson;
+}

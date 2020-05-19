@@ -36,3 +36,11 @@ h2{
     -webkit-text-stroke-color: black;
 }
 
+#logoutbtn{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+}
+#logoutbtn:hover{
+    color: crimson;
+}

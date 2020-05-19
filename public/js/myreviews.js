@@ -54,3 +54,12 @@ $(document).on("click", "#deleteall", function () {
 });
 
 $("#backtoprofile").click(() => window.location.pathname = '/profile');
+
+$("#logoutbtn").on("click", function (event) {
+    $.ajax({
+        url: "/logout",
+        method: "GET"
+    }).then(function () {
+        window.location.href = "/"
+    })
+});
