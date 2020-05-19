@@ -56,6 +56,11 @@ module.exports = function (app) {
     res.json(req.user);
   });
 
+  app.get("/logout", function (req, res) {
+    req.logout();
+    res.redirect("/");
+  });
+  
   // // Route for getting some data about our user to be used client side
   // app.get("/api/user_data", function (req, res) {
   //   if (!req.user) {
@@ -71,9 +76,6 @@ module.exports = function (app) {
   //   }
   // });
 
-  app.get("/logout", function(req, res) {
-    req.logout();
-    res.redirect("/");
-  });
+
 }
 
