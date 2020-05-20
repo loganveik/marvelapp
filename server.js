@@ -26,7 +26,7 @@ require("./routes/api-routes")(app);
 require("./routes/handlebars-routes")(app);
 
 // Sequelize sync and run server
-db.sequelize.sync({}).then(function () {
+db.sequelize.sync().then(function () {
     app.listen(PORT, function () {
         console.log('App listening on PORT ' + PORT);
     });
