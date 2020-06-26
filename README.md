@@ -5,7 +5,7 @@ Demo - [https://loganveik.github.io/weatherdashboard](https://loganveik.github.i
 Repo - [https://github.com/loganveik/marvelapp](https://github.com/loganveik/marvelapp)
 
 ### Description:
-This app, onece signed in, lets the user search for any character/comicbook. The user may also create a character review as well as view said reviews.
+This app, once signed in, lets the user search for any character/comicbook. The user may also create a customized character review as well as view any and all reviews.
 
 ### Technologies Used:
 Handlebars, Bootstrap4, CSS3, Javascript, jQuery, Ajax, NodeJS, Express, MySQL, Sequelize, Passport, Bcrypt, Marvel API.
