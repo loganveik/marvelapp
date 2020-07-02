@@ -1,7 +1,7 @@
 # Marvel Review App
 
 ### Links:
-Demo - [https://loganveik.github.io/weatherdashboard](https://loganveik.github.io/weatherdashboard)
+Demo - [https://ljvmarvelapp.herokuapp.com/](https://ljvmarvelapp.herokuapp.com/)
 Repo - [https://github.com/loganveik/marvelapp](https://github.com/loganveik/marvelapp)
 
 ### Description:
