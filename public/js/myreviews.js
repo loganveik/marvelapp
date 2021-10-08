@@ -41,7 +41,7 @@ $(document).on("click", "#delete", function () {
     }).then(function () {
         window.location.pathname = '/view/review'
     });
-})
+});
 
 $(document).on("click", "#deleteall", function () {
     $.ajax({
